@@ -24,6 +24,13 @@ header {
     float: right;
 }
 
+.page1 {
+    display: block;
+    width: 50%;
+    height: 1253px;
+    float: left;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -40,10 +47,43 @@ p {
     text-align: center;
     margin-top: 20%;
 }
-
-.page1 {
-    width: 50%;
-    height: 1253px;
-    float: left;
+.page1 h1 {
+    white-space: nowrap;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #D6D6D6;
+    margin-left: 300px;
+    
 }
+
+.page1 h2 {
+    white-space: nowrap;
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+    color: #F5CB5C;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+nav {
+    margin-top:80px;
+    margin-left: 300px;
+}
+
+nav li {
+    list-style-type: none;
+    margin-top: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #7C7C7C;
+    
+}
+
+
 
