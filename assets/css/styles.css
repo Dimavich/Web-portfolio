@@ -7,21 +7,8 @@
 }
 
 header {
-    width: 45%;
     margin: 0;
 
-}
-
-.background {
-    position: absolute;
-    z-index: -1;
-}
-
-.about-me {
-    background-color: #202020;
-    width: 50%;
-    height: 1253px;
-    float: right;
 }
 
 .page1 {
@@ -29,6 +16,60 @@ header {
     width: 50%;
     height: 1253px;
     float: left;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+}
+
+.page1 h1 {
+    white-space: nowrap;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #D6D6D6;
+    margin-left: 150px;
+    
+}
+
+.page1 h2 {
+    white-space: nowrap;
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+    color: #F5CB5C;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+nav {
+    margin-top:80px;
+    margin-left: 150px;
+}
+
+nav li {
+    list-style-type: none;
+    margin-top: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #7C7C7C;
+}
+
+.about-me {
+    background-color: #202020;
+    width: 50%;
+    height: 1062px;
+    float: right;
+}
+
+#about-me-title {
+    margin-left:100px;
+    margin-top: 75px;
 }
 
 p {
@@ -44,46 +85,16 @@ p {
 #about-me-p {
     font-size: 40px;
     color: #FFFFFF;
-    text-align: center;
-    margin-top: 20%;
-}
-.page1 h1 {
-    white-space: nowrap;
-    font-family:'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 65px;
-    color: #D6D6D6;
-    margin-left: 300px;
-    
-}
-
-.page1 h2 {
-    white-space: nowrap;
-    font-family: 'Pacifico', cursive;
-    font-size: 65px;
-    color: #F5CB5C;
-    margin-top: 150px;
-    margin-left: 300px;
-}
-
-nav {
-    margin-top:80px;
-    margin-left: 300px;
-}
-
-nav li {
-    list-style-type: none;
+    text-align: left;
     margin-top: 10%;
+    width: 60%;
+    margin-left: 200px;
+    text-indent: 40px;
 }
 
-nav a {
-    text-decoration: none;
-    font-family:'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 65px;
-    color: #7C7C7C;
-    
-}
+
+
+
 
 
 
