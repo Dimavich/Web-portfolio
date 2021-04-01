@@ -109,6 +109,30 @@ p {
     margin-top:2% ;
 }
 
+.grid {
+    background-color: #D6D6D6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 3%;
+}
+
+.figure1 img {
+    width: 95%;
+}
+
+.figure2 img {
+    width: 90%;
+}
+
+.figure3 img {
+    width: 90%;
+}
+
+
+
+
 
 
 
