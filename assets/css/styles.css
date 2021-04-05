@@ -130,7 +130,7 @@ p {
 .figure1 img {
     width: 100%;
     object-fit: cover;
-    flex-grow: 1;
+    align-self: stretch;
 }
 
 .figure2 img {
