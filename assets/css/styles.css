@@ -118,19 +118,30 @@ p {
     margin-top:2% ;
 }
 
-.grid {
+.bc {
     background-color: #D6D6D6;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 3% 3%;
+    padding: 4em;
 }
 
-.figure1 img {
+.grid {
+    background-color: #D6D6D6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    width: 75%;
+    margin: 4em auto;
+}
+
+.card-item1 {
+    background-color: #D6D6D6;
+    grid-column: span 2;
+ 
+}
+
+
+.card-item1 img {
     width: 100%;
     object-fit: cover;
-    align-self: stretch;
 }
 
 .figure2 img {
@@ -161,12 +172,13 @@ p {
     text-align: center;
     transform: scale(0);
     transition: 200ms transform ease-in-out;
-    object-fit:fill;
+    object-fit:cover;
 }
 
 .card:hover figcaption {
     transform: scale(1);
     background-color: rgba(255, 255, 255, 0.55);
+    object-fit: cover;
 }
 
 .card a {
@@ -244,6 +256,11 @@ p {
         display: block;
         margin: 0;
     }
+    
+    .grid {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media (max-width: 1238px) {
@@ -257,7 +274,8 @@ p {
         margin-left: 1%;
     }
     .grid {
-        padding: 3% 11%;
+        width: 100%;
+        margin: auto;
     }
 
 }
@@ -281,6 +299,31 @@ p {
         display:block;
         text-align: center;
         margin: 0;
+    }
+
+    .grid {
+        display: inline-block;
+        margin:1em 0;
+    }
+
+    .bc {
+        padding: 0;
+    }
+    
+    .card-item1 {
+        margin: 1em 0;
+    }
+
+    .card-item2 {
+        margin: 1em 0;
+    }
+
+    .card-item1 {
+        margin: 1em 0;
+    }
+
+    .card-item3 {
+        margin: 1em 0;
     }
 
     .title {
