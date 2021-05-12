@@ -165,11 +165,10 @@ p {
     color: #333533;
     text-align: center;
     position: absolute;
-    top: 0;
+    top:0;
     bottom: 0;
     left: 0;
     right: 0; 
-    text-align: center;
     transform: scale(0);
     transition: 200ms transform ease-in-out;
     object-fit:cover;
@@ -179,6 +178,29 @@ p {
     transform: scale(1);
     background-color: rgba(255, 255, 255, 0.55);
     object-fit: cover;
+}
+
+.fig-text {
+    margin-top: -3.5em;
+}
+
+.git-link {
+    color: #333533;
+    font-weight: 500;
+}
+
+.git-link:hover {
+    color: #000000;
+    cursor: pointer;
+    background-color: #F5CB5C;
+}
+
+li {
+    list-style-type: none;
+}
+
+.proj-name {
+    color: #333533;
 }
 
 .card a {
@@ -236,6 +258,7 @@ p {
     font-size: 65px;
     font-weight: bold;
     color: #333533;
+    list-style-type: none;
 }
 
 .links a:hover {
