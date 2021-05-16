@@ -4,9 +4,6 @@
   This is a website portfolio that will be used to showcase my work to potential employers or clients.
 So far its a simple layout made only using HTML and CSS. I hope to add projects and more features to the page as i learn more.
 
-**Note:** The work links do not work because i don't have any relavent projects under my belt yet. I will update the links to my future projects.
-
-
 ## Features 
 
 - The page has a nav with 3 buttons which lead to the 3 main sections 
