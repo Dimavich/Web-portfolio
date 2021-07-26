@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Dmitriy's web-portfolio</title>
 </head>
-<body>
+<body> 
     <div class="page1">
         <header>
             <h2>My name is</h2>
@@ -36,56 +37,87 @@
         </p>
     </div>
     <div class="bc">
-        <div class="grid" id="2">
-            <div class="card-item1 card">
-                <a href="#">
-                    <figure class="figure1 figure">
-                        <img src="./assets/images/surf-forecast.png" alt="Two people working in an office">
-                        <figcaption>
-                            <div class="fig-text">
-                                <li class="proj-name">Surf Forecast</li>
-                                <li><a class="git-link" href="https://github.com/Dimavich/surf-forecast">Git Repo</a></li>
-                                <li><a class="git-link" href="https://dimavich.github.io/surf-forecast/">live Page</a></li>
-                                <!-- <div class="screenshot1">
-                                    <img src="./assets/images/surf-forecast.png" alt="screenshot of surf forecast">
-                                </div> -->
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-mdb-target="#carouselExampleCaptions"
+                data-mdb-slide-to="0"
+                class="active indicator"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-mdb-target="#carouselExampleCaptions"
+                data-mdb-slide-to="1"
+                class="indicator"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-mdb-target="#carouselExampleCaptions"
+                data-mdb-slide-to="2"
+                class="indicator"
+                aria-label="Slide 3"
+              ></button>
             </div>
-            <div class="card-item2 card"> 
-                <a href="#">
-                    <figure class="figure2 figure">
-                        <img src="./assets/images/weather-dash.png" alt="Mobile phone app being displayed on phone">
-                        <figcaption>
-                            <div class="fig-text">
-                                <li class="proj-name">Weather Dashboard</li>
-                                <li><a class="git-link" href="https://github.com/Dimavich/weather-dashboard">Git Repo</a></li>
-                                <li><a class="git-link" href="https://dimavich.github.io/weather-dashboard/">live Page</a></li>
-                                <!-- <div class="screenshots">
-                                    <img src="./assets/images/weather-dashboard.png" alt="screenshot of surf forecast">
-                                </div> -->
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/images/eventory.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="slide-title">Eventory</h3>
+                  <a href="https://my-eventory.herokuapp.com/" class="slide-links">Visit Eventory</a>
+                  <a href="https://github.com/Dimavich/Eventory" class="slide-links">GitHub</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/surf.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slide-title">Surf Forecast</h3>
+                    <a href="https://dimavich.github.io/surf-forecast/" class="slide-links">Visit Surf Forecast</a>
+                    <a href="https://github.com/Dimavich/surf-forecast" class="slide-links">GitHub</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/team.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slide-title">Team Card Generator</h3>
+                    <a href="https://github.com/Dimavich/Team-card-generator" class="slide-links">GitHub</a>
+                </div>
+              </div>
             </div>
-            <div class="card-item3 card"> 
-                <a href="#">
-                    <figure class="figure3 figure">
-                        <img src="./assets/images/work-schedule.png" alt="A to do list on top of a laptop">
-                        <figcaption>
-                            <div class="fig-text">
-                                <li class="proj-name">Work Day Planner</li>
-                                <li><a class="git-link" href="https://github.com/Dimavich/Work-day-Scheduler">Git Repo</a></li>
-                                <li><a class="git-link" href="https://dimavich.github.io/Work-day-Scheduler/">live Page</a></li>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </div>
-        </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-mdb-target="#carouselExampleCaptions"
+              data-mdb-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-mdb-target="#carouselExampleCaptions"
+              data-mdb-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
     <div class="contact-me" id="3">
         <h2 class="title" id="contact-title">Contact Me!</h2>
@@ -93,13 +125,15 @@
     </div>
     <div class="links">
         <ul>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://docs.google.com/document/d/1_9y3sKZc4lIWV55ED-1Avp6Wk4XE_LqWGEc9L3-m7zo/edit?usp=sharing">Resume</a></li>
             <li><a href="https://www.linkedin.com/in/dmitriy-babich-22216a202">LinkedIn</a></li>
             <li><a href="https://github.com/Dimavich">GitHub</a></li>
             <li><a href="https://www.instagram.com/dirmid/">Instagram</a></li>
         </ul>
     </div>
-
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+
 </html>

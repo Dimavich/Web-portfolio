@@ -310,6 +310,40 @@ li {
     color: #F5CB5C;
 }
 
+.indicator {
+    width: 25px;
+    height: 3px;
+    border: none;
+    margin: 5px;
+}
+
+.active {
+    background-color: #F5CB5C;
+}
+
+.w-100 {
+    width: min-content;
+    max-height: 650px;
+}
+
+.slide-title {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.slide-links {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.slide-links:hover {
+    color: #F5CB5C;
+}
+
+
 
 @media (max-width: 1333px) {
     .page1 {
